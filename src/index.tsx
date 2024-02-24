@@ -1,3 +1,3 @@
-import MyComponent from './component/MyComponent';
+import MyComponent from './component/FlexGridLayout';
 
 export { MyComponent };
