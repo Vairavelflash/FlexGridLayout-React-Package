@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FlexGridLayout from './component/FlexGridLayout';
 
+const gridItems = [
+  { content: "Item", id: "1", rowSpan: "1", colSpan: "1" },
+  { content: "Item", id: "2", rowSpan: "1", colSpan: "1" },
+  { content: "Item", id: "3", rowSpan: "1", colSpan: "1" },
+  { content: 'Item', id: '4', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '5', rowSpan: '2', colSpan: '1' },
+  { content: 'Item', id: '6', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '7', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '8', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '9', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '10', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '11', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '12', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '13', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '14', rowSpan: '1', colSpan: '1' },
+  { content: 'Item', id: '15', rowSpan: '1', colSpan: '1' },
+];
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <FlexGridLayout rowCount={4} colCount={4} gridItems={gridItems}/>
     </div>
   );
 }
