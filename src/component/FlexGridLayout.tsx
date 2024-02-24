@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import './layout.css'
+import '../index.css'
 type GridItem = {
   content: string;
   id: string;
