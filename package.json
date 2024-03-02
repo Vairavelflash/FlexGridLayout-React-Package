@@ -1,6 +1,6 @@
 {
   "name": "flexgridlayout-react",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "main": "src/index.tsx",
   "description": "",
   "git repository": "https://github.com/Vairavelflash/FlexGridLayout-React-Package.git",
@@ -17,6 +17,8 @@
     "grid layout"
   ],
   "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
@@ -50,9 +52,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/preset-env": "^7.24.0",
-    "@babel/preset-react": "^7.23.3",
-    "@types/jest": "^29.5.12"
+    "@babel/preset-env": "^7.24.0"
   }
 }
