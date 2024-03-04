@@ -1,3 +1,3 @@
-import MyComponent from './component/FlexGridLayout';
+import FlexGridLayout from './component/FlexGridLayout';
 
-export { MyComponent };
+export { FlexGridLayout };

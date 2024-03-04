@@ -1,15 +1,20 @@
 {
   "name": "flexgridlayout-react",
-  "version": "0.1.4",
+  "version": "0.1.11",
   "main": "src/index.tsx",
   "description": "",
-  "git repository": "",
+  "git repository": "https://github.com/Vairavelflash/FlexGridLayout-React-Package.git",
   "author": "vairavel",
   "license": "MIT",
   "keywords": [
     "react",
     "component",
-    "npm"
+    "npm",
+    "flex",
+    "grid",
+    "flex-grid",
+    "react grid",
+    "grid layout"
   ],
   "dependencies": {
     "@babel/cli": "^7.23.9",
